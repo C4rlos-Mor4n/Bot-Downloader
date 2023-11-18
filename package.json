@@ -1,0 +1,30 @@
+{
+  "name": "base-bailey-memory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "pre-copy": "cd .. && npm run  copy.lib base-baileys-memory",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@bot-whatsapp/bot": "latest",
+    "@bot-whatsapp/cli": "latest",
+    "@bot-whatsapp/database": "latest",
+    "@bot-whatsapp/portal": "latest",
+    "@bot-whatsapp/provider": "latest",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@whiskeysockets/baileys": "^6.4.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "queue-promise": "^2.2.1",
+    "wa-sticker-formatter": "4.3.2",
+    "ytdl-core": "^4.11.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.52.0",
+    "eslint-plugin-bot-whatsapp": "latest"
+  },
+  "author": "",
+  "license": "ISC"
+}
